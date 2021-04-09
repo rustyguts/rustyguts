@@ -7,4 +7,4 @@ I value autonomy and dependable teammates. I appreciate people who are open-mind
 - 🩺 I’m currently working at [Eko Health](https://censys.io). We're building a cardiovascular telemedicine platform to support our digital stethoscopes devices.
 - 🎥 On the side I like to work on [bken.io](https://bken.io), a video sharing platform I'm building
 - 💻 I’m passionate about infrastructure
-- 🐕 I'm looking to get my first dog!
+- 🐶 [I have a dog](https://imgur.com/UC2ZWO0) and her name is Rosie!
