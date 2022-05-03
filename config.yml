@@ -1,0 +1,31 @@
+theme: paper
+title: RustyGuts
+languageCode: en-us
+baseURL: https://rustyguts.dev
+enableRobotsTXT: true
+enableEmoji: true
+params:
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  defaultTheme: auto
+  disableThemeToggle: false
+  homeInfoParams:
+    Title: Hi
+    Content: I post things here sometimes
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/rustyguts"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/brenwken/"
+menu:
+  main:
+    - name: Search
+      identifier: search
+      url: search/
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
