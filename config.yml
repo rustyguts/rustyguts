@@ -21,6 +21,9 @@ params:
       url: "https://www.linkedin.com/in/brenwken/"
 menu:
   main:
+    - name: Archive
+      identifier: archive
+      url: archives/
     - name: Search
       identifier: search
       url: search/
