@@ -5,5 +5,3 @@ draft: false
 ---
 
 Hi
-
-![Example image](/images/optimized/test.webp)

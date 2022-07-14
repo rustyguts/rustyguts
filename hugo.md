@@ -3,11 +3,6 @@
 hugo server -D
 hugo new posts/my-first-post.md
 
-### Scripts
-
-Optimizing images with libvips
-`./scripts/optimizeImages.sh`
-
 ### Links
 
 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode

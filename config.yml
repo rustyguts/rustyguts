@@ -1,5 +1,5 @@
 theme: paper
-title: RustyGuts
+title: rustyguts
 languageCode: en-us
 baseURL: https://rustyguts.dev
 enableRobotsTXT: true
@@ -12,8 +12,8 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
   homeInfoParams:
-    Title: Hi
-    Content: I post things here sometimes
+    Title: hi
+    Content: I post things sometimes
   socialIcons:
     - name: "github"
       url: "https://github.com/rustyguts"
