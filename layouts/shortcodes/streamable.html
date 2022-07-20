@@ -1,0 +1,11 @@
+{{ if .Get "id" }}
+<div style="position:relative;padding-top:{{ .Get "padding" }};border-radius:2px">
+    <iframe src="https://streamable.com/e/{{ .Get "id" }}?preload=true" 
+    style="border:none;position:absolute;top:0;height:100%;width: 100%;"  
+    allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+    allowfullscreen="true">
+    </iframe>
+</div>
+{{ else }}
+<i>Parameter 'id' missing!</i>
+{{ end }}
