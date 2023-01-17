@@ -1,7 +1,14 @@
-### Hugo
+### Blog
 
+
+```
+git submodule update --init --recursive
+```
+
+```
 hugo server -D
 hugo new posts/my-first-post.md
+```
 
 ### Links
 
