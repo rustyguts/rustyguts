@@ -28,13 +28,13 @@ const options: SatoriOptions = {
   embedFont: true,
   fonts: [
     {
-      name: "Space Mono",
+      name: "JetBrains Mono",
       data: fontRegular,
       weight: 400,
       style: "normal",
     },
     {
-      name: "Space Mono",
+      name: "JetBrains Mono",
       data: fontBold,
       weight: 600,
       style: "normal",
