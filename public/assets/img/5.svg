@@ -1,0 +1,100 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Graph view" width="313" height="360"><g transform="translate(12,19.362802505493164)"><g class="nodes"><g class="node-container" transform="translate(144.14005279541016,18.727272987365723)"><g class="node anchor"><circle class="shape" x="-16.090076446533203" y="-8.727272987365723" r="26.090076446533203"/><text class="label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Start</tspan></text></g></g><g class="node-container" transform="translate(144.14005279541016,306.0909090042114)"><g class="node anchor"><circle class="shape" x="-12.17613697052002" y="-8.727272987365723" r="22.17613697052002"/><text class="label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">End</tspan></text></g></g><g class="node-container" transform="translate(144.14005279541016,131.18181800842285)"><g class="node state Parallel Container FailedState" aria-label="State Parallel" data-virtual-tab-id="36" tabindex="0" transform="translate(-144.14005279541016,-28.727272033691406)"><rect class="shape" rx="5" ry="5" x="0" y="0" width="288.2801055908203" height="117.45454406738281" transform="translate(0,-20)"/><g class="branches" transform="translate(20,40)"><g class="branch" transform="translate(0,0)"><g class="nodes"><g class="node-container" transform="translate(56.102272033691406,18.727272987365723)"><g class="node state Wait CancelledState" aria-label="State Long Action" data-virtual-tab-id="37" tabindex="-1" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-48.102272033691406" y="-18.727272987365723" width="112.20454406738281" height="37.454545974731445"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">Long Action</text><svg class="icon" width="16" height="16" x="43.102272033691406" y="-8"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="M11 8H5"/></svg></g></g></g><g class="edges"/></g><g class="branch" transform="translate(132.2045440673828,0)"><g class="nodes"><g class="node-container" transform="translate(58.037776947021484,18.727272987365723)"><g class="node state Task FailedState" aria-label="State This Will Fail" data-virtual-tab-id="38" tabindex="-1" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-50.037776947021484" y="-18.727272987365723" width="116.07555389404297" height="37.454545974731445"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">This Will Fail</text><svg class="icon" width="16" height="16" x="45.037776947021484" y="-8"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="m10.828 5.172-5.656 5.656M10.828 10.828 5.172 5.172"/></svg></g></g></g><g class="edges"/></g></g><g class="title node state FailedState" transform="translate(124.14005279541016,-40)"><rect class="shape step-status" rx="5" ry="5" x="0" y="0" width="92.56818389892578" height="40" transform="translate(-26.28409194946289)"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central" font-weight="600" x="40" y="10" transform="translate(-28)">Parallel</text><text class="desciption" xml:space="preserve" text-anchor="middle" alignment-baseline="central" x="40" y="30" transform="translate(-20)">2 Branches</text><svg class="icon" width="16" height="16" xml:space="preserve" text-anchor="middle" alignment-baseline="central" x="45.28409194946289" y="3"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="m10.828 5.172-5.656 5.656M10.828 10.828 5.172 5.172"/></svg></g><path class="path" marker-end="url(#arrowhead45)" d="M144.14,0L144.14,3.333C144.14,6.667,144.14,13.333,132.8,16.667C121.461,20,98.782,20,87.442,23.333C76.102,26.667,76.102,33.333,76.102,36.667L76.102,40" style="fill: none;"/><defs><marker id="arrowhead45" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs><path class="path" marker-end="url(#arrowhead46)" d="M144.14,0L144.14,3.333C144.14,6.667,144.14,13.333,155.157,16.667C166.174,20,188.208,20,199.225,23.333C210.242,26.667,210.242,33.333,210.242,36.667L210.242,40" style="fill: none;"/><defs><marker id="arrowhead46" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g></g><g class="node-container" transform="translate(144.14005279541016,243.63636302947998)"><g class="node state Pass NotYetStarted" aria-label="State Final State" data-virtual-tab-id="39" tabindex="-1" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-43.835227966308594" y="-18.727272987365723" width="103.67045593261719" height="37.454545974731445"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">Final State</text><svg class="icon" width="16" height="16" x="38.835227966308594" y="-8"/></g></g></g><g class="edges"><g class="edge"><path class="path" marker-end="url(#arrowhead47)" d="M144.14,199.909L144.14,201.992C144.14,204.076,144.14,208.242,144.14,212.409C144.14,216.576,144.14,220.742,144.14,222.826L144.14,224.909" style="fill: none;"/><defs><marker id="arrowhead47" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g><g class="edge"><path class="path" marker-end="url(#arrowhead48)" d="M144.14,44.817L144.14,45.674C144.14,46.53,144.14,48.242,144.14,51.182C144.14,54.121,144.14,58.288,144.14,60.371L144.14,62.455" style="fill: none;"/></g><g class="edge"><path class="path" marker-end="url(#arrowhead49)" d="M144.14,262.364L144.14,264.447C144.14,266.53,144.14,270.697,144.14,274.289C144.14,277.881,144.14,280.898,144.14,282.406L144.14,283.915" style="fill: none;"/><defs><marker id="arrowhead49" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g></g></g><style xmlns="http://www.w3.org/1999/xhtml">
+  .link &gt; rect {
+    fill: #0073BB;
+  }
+
+  .link .label {
+    fill: #FFFFFF;
+  }
+
+  .node &gt; .shape {
+    stroke: #555555;
+    stroke-width: 0.6px;
+    fill: #FFFFFF;
+  }
+
+  path {
+    stroke: #555;
+    background-color: #555;
+    stroke-width: 1px;
+  }
+
+  .node.state.NotYetStarted &gt; .shape,
+  .node.state.Container &gt; .shape {
+    stroke-dasharray: 5 2;
+  }
+
+  .node.state.FailedState &gt; .shape,
+  rect.legend.FailedState {
+    fill: #DE322F;
+  }
+
+  .node.state.CaughtErrorState &gt; .shape,
+  rect.legend.CaughtErrorState {
+    fill: #FFA500;
+  }
+
+  .node.state.SucceededState &gt; .shape,
+  rect.legend.SucceededState {
+    fill: #2BD62E;
+  }
+
+  .node.state.InProgressState &gt; .shape,
+  rect.legend.InProgressState {
+    fill: #53c9ed;
+  }
+
+  .node.state.CancelledState &gt; .shape,
+  rect.legend.CancelledState {
+    fill: #dddddd;
+  }
+
+  .node.anchor &gt; .shape {
+    fill: #FFDA75;
+  }
+
+  .node.state.hovered:not(.selected):not(.NotYetStarted) &gt; .shape,
+  .node.selected &gt; .shape {
+    stroke: #555555;
+    stroke-width: 2px;
+  }
+
+  .node.state.Container.Failed &gt; .shape {
+    fill: #EE9592;
+  }
+
+  .node.state.Container.CaughtError &gt; .shape {
+    fill: #FFD27F;
+  }
+
+  .node.state.Container.Succeeded &gt; .shape {
+    fill: #91EA9A;
+  }
+
+  .node.state.Container.InProgress &gt; .shape {
+    fill :#A9E4F7;
+  }
+
+  .node.state.Container.Cancelled &gt; .shape {
+    fill: #EEEEEE;
+  }
+
+  marker {
+    fill: #555555;
+  }
+
+  .node.anchor,
+  .node.state.NotYetStarted {
+    cursor: default;
+  }
+
+  .node.state {
+    cursor: default;
+  }
+
+  tspan .label {
+    font-weight: normal;
+    font-size: 12px;
+    text-shadow: none;
+  }
+</style></svg>
