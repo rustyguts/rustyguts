@@ -1,33 +1,23 @@
-import type { Site, SocialObjects } from "./types";
-
-export const SITE: Site = {
-  website: "https://rustyguts.dev", // replace this with your deployed domain
+export const SITE = {
+  website: "https://rustyguts.dev",
   author: "Brendan Kennedy",
+  profile: "https://github.com/rustyguts",
   desc: "Chicken wings and computer things",
   title: "rustyguts",
-  // ogImage: "astropaper-og.jpg",
+  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
+  postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-};
-
-export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
-} as const;
-
-export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
-};
-
-export const SOCIALS: SocialObjects = [
-  {
-    name: "Github",
-    href: "https://github.com/rustyguts",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "Edit page",
+    url: "https://github.com/rustyguts/rustyguts.dev/edit/main/",
   },
-];
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "en",
+  timezone: "America/New_York",
+} as const;
